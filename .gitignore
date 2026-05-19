@@ -1,0 +1,13 @@
+node_modules
+.next
+.env.local
+
+uploads
+frames
+clips
+
+public/clips
+
+*.mp4
+*.mov
+*.avi

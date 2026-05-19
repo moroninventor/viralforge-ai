@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Mono:wght@300;400;500&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap');
+
+:root {
+  --bg:      #05060A;
+  --bg2:     #0C0E15;
+  --bg3:     #111420;
+  --border:  rgba(255,255,255,0.07);
+  --border2: rgba(255,255,255,0.12);
+  --accent:  #FF3D5A;
+  --accent2: #FF6B35;
+  --accent3: #FFD60A;
+  --purple:  #9B5DE5;
+  --cyan:    #00F5D4;
+  --text:    #F0F0F0;
+  --text2:   #8B8FA8;
+  --text3:   #555870;
+  --green:   #23D9A5;
+  --font-head: 'Syne', sans-serif;
+  --font-body: 'DM Sans', sans-serif;
+  --font-mono: 'DM Mono', monospace;
+  --radius:    12px;
+  --radius-sm: 8px;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-body);
+  font-size: 15px;
+  line-height: 1.6;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--bg2); }
+::-webkit-scrollbar-thumb { background: var(--border2); border-radius: 3px; }
