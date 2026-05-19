@@ -298,7 +298,7 @@ export default function Home() {
       }
 
       // FALLBACK RESULTS
-      const fallbackResults: AnalysisResults = {
+      const fallbackResults: any = {
 
         vision: {
           emotional_score: 91,
